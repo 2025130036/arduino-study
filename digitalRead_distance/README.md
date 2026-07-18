@@ -4,3 +4,4 @@
 
 https://github.com/user-attachments/assets/094801ef-f5d0-4a7a-8c9a-894fae180035
 
+초음파센서를 움직임에 따라 측정 거리가 달라지는 영상
