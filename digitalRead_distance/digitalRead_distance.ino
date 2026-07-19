@@ -1,6 +1,8 @@
 const int ECHO = 9;
 const int TRIG = 10;
-//아날로그센서처럼 전압이 변하는게 아닌 echo가 HIGH인 시간을 측정하는 것이므로 digitalRead라 할 수 있음.
+//아날로그센서처럼 전압이 변하는게 아닌 echo가 HIGH인 시간을 측정하는 것이므로 digitalRead에 가깝다고 할 수 있음.
+//digitalRead처럼 HIGH/LOW 상태를 기반으로 하지만, 단순 상태를 읽는 것이 아니라 HIGH 펄스의 지속시간을 측정하기 위해 pulseIn()을 사용한다.
+
 
 void setup() {
   Serial.begin(9600);
