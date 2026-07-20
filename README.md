@@ -14,6 +14,7 @@
 - **2026-07-17** : CDS조도센서(포토레지스터)를 이용하여 주변 빛의 밝기에 반비례하여 밝아지는 LED(스마트가로등) 구현 실습(`analogRead_light`)
 - **2026-07-18** : 초음파센서를 이용한 cm단위 거리측정 실습과 가변저항을 이용한 서브모터 각도 조정 실습(`digitalRead_distance`)(`servoMotor`)
 - **2026-07-19** : 1602 lcd 모델을 이용한 lcd 화면 출력 실습(`lcd`)
+- **2026-07-20 ~ 2026-07-21** : ADAS 시뮬레이터 프로젝트(https://github.com/2025130036/arduino-study/tree/main/project_ADASsystem)
 --------
 
 ## 주요 핵심 내용 및 기술 분석, 궁금증 해결
