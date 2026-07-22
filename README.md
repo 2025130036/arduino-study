@@ -15,6 +15,7 @@
 - **2026-07-18** : 초음파센서를 이용한 cm단위 거리측정 실습과 가변저항을 이용한 서브모터 각도 조정 실습(`digitalRead_distance`)(`servoMotor`)
 - **2026-07-19** : 1602 lcd 모델을 이용한 lcd 화면 출력 실습(`lcd`)
 - **2026-07-20 ~ 2026-07-21** : ADAS 시뮬레이터 프로젝트(https://github.com/2025130036/arduino-study/tree/main/project_ADASsystem)
+- **2026-07-22** : 자율주행 RC카에 필요한 TRCT5000 센서 실습(`sensorTRCT5000`)
 --------
 
 ## 주요 핵심 내용 및 기술 분석, 궁금증 해결
