@@ -31,7 +31,7 @@
 
 
 <img width="1080" height="1440" alt="image" src="https://github.com/user-attachments/assets/060c5735-efd8-459c-bc18-b6ad3faa4d08" />
-서보모터와 TRCT5000 센서를 결합한 모습 
+서보모터와 TCRT5000 센서를 결합한 모습 
 
 ---
 
