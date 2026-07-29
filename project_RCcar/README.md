@@ -33,20 +33,14 @@
 <img width="1080" height="1440" alt="image" src="https://github.com/user-attachments/assets/060c5735-efd8-459c-bc18-b6ad3faa4d08" />
 서보모터와 TCRT5000 센서를 결합한 모습 
 
-### 📐 System Architecture (시스템 구조도)
+###  시스템 구조도
 
-[Sensors & Input]            [Main Controller]          [Actuators & Output]
-+-------------------+        +-----------------+        +------------------+  
-| 초음파센서         | -----> |                 | -----> | SG90 Servo 모터   |  
-| TCRT5000 센서      | -----> |   Arduino Uno   |        +------------------+  
-+-------------------+        |                 |          
-                             |                 |        +------------------+  
-                             |                 |
-[Power Supply]               |                 | -----> | L298N Driver     |    
-| 보조배터리 (5V)    | -----> |                 |        |  └─ DC Motors x4 |  
-| 14500 배터리(7.4V) | --------------------------------> |                  |  
-+-------------------+        +-----------------+        +------------------+
-
+* **입력부 (Sensors):** 초음파센서 / TCRT5000 (라인센서) ➔ **Arduino Uno**
+* **제어부 (Controller):** Arduino Uno ➔ **SG90 서보모터** & **L298N 모터드라이버**
+* **구동부 (Actuators):** L298N 모터드라이버 ➔ **DC TT 모터 (x4)**
+* **전원부 (Power):** 
+  * 아두이노 & 서보모터: 보조배터리 ($5\text{V}$)
+  * 모터 드라이버: $14500$ 리튬이온 배터리 ($7.4\text{V}$)
 ### 코드 구조
 
 `project_RCcar.ino`는 다음과 같은 구조로 동작합니다:
